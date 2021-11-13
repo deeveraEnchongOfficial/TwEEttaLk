@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 13, 2021 at 04:09 AM
+-- Generation Time: Nov 13, 2021 at 04:23 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.24
 
@@ -75,7 +75,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `othernames`, `username`, `password`, `address`, `course`, `birthday`, `gender`, `phone`, `email`, `reg_date`, `profile_picture`) VALUES
-(18, 'Enchong', 'anonymous', 'Enchong18', 'P@ssw0rd', 'Philippines', 'Information Tech', '1999-10-20', 'male', '09123456789', 'enchong@gmail.com', '2021-11-13 02:56:52', 'Img/uploads/@enchong18ProfilePix.jpg'),
+(18, 'Anonymous', 'anonymous', 'anknown', 'P@ssw0rd', 'Philippines', 'Information Tech', '1999-10-20', 'male', '09123456789', 'anknown@gmail.com', '2021-11-13 02:56:52', 'Img/uploads/@anknownProfilePix.jpg'),
 (19, 'Levi Acherman', 'Levi', 'Levii', 'pass123', 'Attacl on titan', 'Speacial Force', '2021-11-13', 'male', '09123456709', 'levi@gmail.com', '2021-11-13 03:04:53', 'Img/uploads/@leviiProfilePix.jpg'),
 (20, 'Ash ketchup', 'Ash', 'Assh', 'pass321', 'Pallettown', 'Pokemon Master', '2021-11-13', 'male', '09365412598', 'ash@gmail.com', '2021-11-13 03:08:03', 'Img/uploads/@asshProfilePix.png');
 
